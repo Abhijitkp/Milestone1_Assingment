@@ -1,26 +1,40 @@
 body{
     font-family: 'Poppins', sans-serif;
-   
+    margin: 0;
 }
 h1{
     font-size: 3em ;
 }
+
 h4{
     font-weight: 500;
 }
+
 .h1Span{
     color:rgb(8, 145, 199)
 
 }
 section{
     display: flex;
+    margin-bottom : 100px;
 }
 .half_width{
     width : 50% ;
-    padding : 1%;
+    padding : 2%;
 }
 .half_width img{
-    width: 85% ;
+    width: 80% ;
+    height: 100%;
+}
+
+.about_me{
+    background-image: url("Frame 57.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+    background-attachment: local;
+    padding : 1% ;
+    margin-bottom =150px;
 }
 
 .order_food_button{
